@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    /*background-color: aqua;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav h3{
+    font-size: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    font-weight: 500;
+    padding: 5px 10px;
+   border-radius: 50px;
+}
+#nav i{
+    font-size: 15px;
+    border: 1px solid black;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+#nav h1{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#btn1{
+    font-size: 15px;
+    border-radius: 0.5px solid black;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 50px;
+    
+}
+#btn2{
+    font-size: 15px;
+    border-radius: 0.5px solid black;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 50px;
+    background-color: rgb(208, 58, 58);
+}
+#main>h1{
+    font-size: 130px ;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+img{
+    height: 350px;
+    width: 270px;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius:  20px;
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-28deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-12deg);
+}
+#img4{
+    transform: translate(-50%,-50%);
+}
+#main>h4{
+    font-weight: 500;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+#nav-part2{
+    display: flex;
+    left:50%;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+#button{
+    /*color:rgb(186, 62, 62);*/
+    background-color: brown;
+}
+#icon{
+    font-weight: 500;
+    position: absolute;
+    bottom: 7%;
+    right: 5%;
+    padding: 2px;
+}
+#yt{
+    right: 4%;
+}
+
